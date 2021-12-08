@@ -1,0 +1,22 @@
+[
+{
+  "directory": "F:/Local/GitProjects/WinProject/GAMES101/Assignment3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/Rasterizer.dir/includes_CXX.rsp -g -o CMakeFiles\\Rasterizer.dir\\main.cpp.obj -c F:\\Local\\GitProjects\\WinProject\\GAMES101\\Assignment3\\main.cpp",
+  "file": "F:/Local/GitProjects/WinProject/GAMES101/Assignment3/main.cpp"
+},
+{
+  "directory": "F:/Local/GitProjects/WinProject/GAMES101/Assignment3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/Rasterizer.dir/includes_CXX.rsp -g -o CMakeFiles\\Rasterizer.dir\\rasterizer.cpp.obj -c F:\\Local\\GitProjects\\WinProject\\GAMES101\\Assignment3\\rasterizer.cpp",
+  "file": "F:/Local/GitProjects/WinProject/GAMES101/Assignment3/rasterizer.cpp"
+},
+{
+  "directory": "F:/Local/GitProjects/WinProject/GAMES101/Assignment3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/Rasterizer.dir/includes_CXX.rsp -g -o CMakeFiles\\Rasterizer.dir\\Triangle.cpp.obj -c F:\\Local\\GitProjects\\WinProject\\GAMES101\\Assignment3\\Triangle.cpp",
+  "file": "F:/Local/GitProjects/WinProject/GAMES101/Assignment3/Triangle.cpp"
+},
+{
+  "directory": "F:/Local/GitProjects/WinProject/GAMES101/Assignment3/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/Rasterizer.dir/includes_CXX.rsp -g -o CMakeFiles\\Rasterizer.dir\\Texture.cpp.obj -c F:\\Local\\GitProjects\\WinProject\\GAMES101\\Assignment3\\Texture.cpp",
+  "file": "F:/Local/GitProjects/WinProject/GAMES101/Assignment3/Texture.cpp"
+}
+]
