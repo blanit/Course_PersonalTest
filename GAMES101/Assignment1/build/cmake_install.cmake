@@ -1,4 +1,4 @@
-# Install script for directory: F:/1-Project/GAMES101/Assignment1
+# Install script for directory: F:/Local/GitProjects/WinProject/GAMES101/Assignment1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/1-Project/GAMES101/Assignment1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/Local/GitProjects/WinProject/GAMES101/Assignment1/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
