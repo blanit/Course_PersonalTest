@@ -44,7 +44,7 @@ Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio, float z
     float bottom = -top;
     float right = top * aspect_ratio;
     float left = -right;
-    Eigen::Matrix4f n, p;
+    Eigen::Matrix4f n, p, xy_reverse;
     n << 2/(right - left), 0, 0, 0,
         0, 2/(top - bottom), 0, 0,
         0, 0, 2/(zNear - zFar), 0,
@@ -53,7 +53,14 @@ Eigen::Matrix4f get_projection_matrix(float eye_fov, float aspect_ratio, float z
         0, 1, 0, -(top + bottom)/2,
         0, 0, 1, -(zFar + zNear)/2,
         0, 0, 0, 1;
-    projection = n * p * m;
+    //因为OpenCV 是左手坐标系，Z 轴和右手坐标系是相反的
+    //所以变换需要多一步，同时将 x轴，和y轴变为 -x, -y
+    xy_reverse <<-1, 0, 0, 0, 
+        0, -1, 0, 0, 
+        0, 0, 1, 0, 
+        0, 0, 0, 1;
+
+    projection = xy_reverse * n * p * m;
     
     return projection;
 }
