@@ -1,0 +1,3 @@
+F:/Local/GitProjects/WinProject/GAMES101/Assignment4/build/CMakeFiles/BezierCurve.dir
+F:/Local/GitProjects/WinProject/GAMES101/Assignment4/build/CMakeFiles/edit_cache.dir
+F:/Local/GitProjects/WinProject/GAMES101/Assignment4/build/CMakeFiles/rebuild_cache.dir

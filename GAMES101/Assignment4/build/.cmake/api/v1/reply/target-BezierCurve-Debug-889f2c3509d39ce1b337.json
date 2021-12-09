@@ -1,0 +1,210 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "BezierCurve.exe"
+		},
+		{
+			"path" : "BezierCurve.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Program Files (x86)/Eigen3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "F:/4-Archive/library/opencv/opencv/sources/build/install/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "BezierCurve::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\4-Archive\\library\\opencv\\opencv\\sources\\build\\install\\x64\\mingw\\lib\\libopencv_gapi454.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\4-Archive\\library\\opencv\\opencv\\sources\\build\\install\\x64\\mingw\\lib\\libopencv_highgui454.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\4-Archive\\library\\opencv\\opencv\\sources\\build\\install\\x64\\mingw\\lib\\libopencv_ml454.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\4-Archive\\library\\opencv\\opencv\\sources\\build\\install\\x64\\mingw\\lib\\libopencv_objdetect454.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\4-Archive\\library\\opencv\\opencv\\sources\\build\\install\\x64\\mingw\\lib\\libopencv_photo454.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\4-Archive\\library\\opencv\\opencv\\sources\\build\\install\\x64\\mingw\\lib\\libopencv_stitching454.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\4-Archive\\library\\opencv\\opencv\\sources\\build\\install\\x64\\mingw\\lib\\libopencv_video454.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\4-Archive\\library\\opencv\\opencv\\sources\\build\\install\\x64\\mingw\\lib\\libopencv_videoio454.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\4-Archive\\library\\opencv\\opencv\\sources\\build\\install\\x64\\mingw\\lib\\libopencv_imgcodecs454.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\4-Archive\\library\\opencv\\opencv\\sources\\build\\install\\x64\\mingw\\lib\\libopencv_dnn454.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\4-Archive\\library\\opencv\\opencv\\sources\\build\\install\\x64\\mingw\\lib\\libopencv_calib3d454.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\4-Archive\\library\\opencv\\opencv\\sources\\build\\install\\x64\\mingw\\lib\\libopencv_features2d454.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\4-Archive\\library\\opencv\\opencv\\sources\\build\\install\\x64\\mingw\\lib\\libopencv_flann454.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\4-Archive\\library\\opencv\\opencv\\sources\\build\\install\\x64\\mingw\\lib\\libopencv_imgproc454.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\4-Archive\\library\\opencv\\opencv\\sources\\build\\install\\x64\\mingw\\lib\\libopencv_core454.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "BezierCurve",
+	"nameOnDisk" : "BezierCurve.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

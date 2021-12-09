@@ -1,0 +1,7 @@
+[
+{
+  "directory": "F:/Local/GitProjects/WinProject/GAMES101/Assignment4/build",
+  "command": "C:\\msys64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe  @CMakeFiles/BezierCurve.dir/includes_CXX.rsp -g -std=gnu++14 -o CMakeFiles\\BezierCurve.dir\\main.cpp.obj -c F:\\Local\\GitProjects\\WinProject\\GAMES101\\Assignment4\\main.cpp",
+  "file": "F:/Local/GitProjects/WinProject/GAMES101/Assignment4/main.cpp"
+}
+]
