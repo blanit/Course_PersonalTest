@@ -1,0 +1,17 @@
+#
+# 项目文件Git排除声明
+#
+
+# 排除一些工程路径
+Bairen_PersonalTest/.idea/**
+Bairen_PersonalTest/.plastic/**
+Bairen_PersonalTest/.vscode/**
+Bairen_PersonalTest/Library/**
+Bairen_PersonalTest/Logs/**
+Bairen_PersonalTest/obj/**
+Bairen_PersonalTest/Temp/**
+Bairen_PersonalTest/UserSettings/**
+
+# 排除一些文件类型
+*.sln
+*.csproj
