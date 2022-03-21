@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Skybox_Fog
-  m_Shader: {fileID: 4800000, guid: 2ea4a2dd07a72f041815135f0ef79322, type: 3}
+  m_Name: Skybox_Standard
+  m_Shader: {fileID: 4800000, guid: 2a0c491e1af6d08439dd26fdd3464842, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,21 +19,17 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Tex:
-        m_Texture: {fileID: 8900000, guid: e71fc492f440446b99875b8e1df890ba, type: 3}
+        m_Texture: {fileID: 8900000, guid: a03e7f355ccacb04b922d6ba3bfc3717, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _DistBias: 4.2
-    - _DistFalloff: 1.7
-    - _Exposure: 1.36
-    - _FogInt: 0
-    - _HeightBias: 2.3
-    - _HeightFalloff: 0.409
-    - _Rotation: 37
-    - _ScatterPow: 15.9
+    - _Exposure: 0.47
+    - _Rotation: 41
     m_Colors:
-    - _FogCol: {r: 0.7, g: 0.8, b: 0.9, a: 1}
-    - _ScatterLight: {r: 4.92, g: 0.23, b: -4.4, a: 1}
-    - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _Tint: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 0.5}
   m_BuildTextureStacks: []
