@@ -26,7 +26,7 @@ SubShader {
         #include "AutoLight.cginc"
         #include "Lighting.cginc"
         //FogInclude
-        #include "PersonalHeader.cginc"
+        #include "../cginc/PersonalHeader.cginc"
 
         samplerCUBE _Tex;
         samplerCUBE _FlowMap;
