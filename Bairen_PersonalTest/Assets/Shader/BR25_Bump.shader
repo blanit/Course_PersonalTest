@@ -69,8 +69,7 @@ Shader "Bairen/BR25_Bump" {
                 float layerHeight = 1.0 / numLayers;
                 float currentLayerHeight = 0.0;
                 float heightMapValue = tex2D(dispTex, currentUV).r;
-
-                float2 addUV = float2(0.0, 0.0);
+                
                 [loop]
                 while(currentLayerHeight < heightMapValue)
                 {

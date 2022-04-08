@@ -21,10 +21,6 @@ SubShader {
         #pragma shader_feature _INVERSE_FLOWDIR_ON
 
         #include "UnityCG.cginc"
-        #include "AutoLight.cginc"
-        #include "Lighting.cginc"
-        //FogInclude
-        #include "PersonalHeader.cginc"
 
         samplerCUBE _Tex;
         samplerCUBE _FlowMap;
